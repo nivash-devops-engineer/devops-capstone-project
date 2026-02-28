@@ -12,7 +12,7 @@ pipeline {
             steps {
                 git branch: 'main',
                     credentialsId: 'github-creds',
-                    url: 'https://github.com/yourusername/devops-capstone.git'
+                    url: 'https://github.com/nivash-devops-engineer/devops-capstone.git'
             }
         }
 
